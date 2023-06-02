@@ -11,7 +11,7 @@ const { isChecked, setIsChecked, selectedValue, setSelectedValue } = useContext(
   const handleCheckboxChange = (event) => {
     setIsChecked(event.target.checked);
     setSelectedValue(event.target.value)
-
+    console.log(selectedValue)
   };
 
   return (
