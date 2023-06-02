@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/audio-emotion-detection/static/css/main.1cdb753e.css",
-    "main.js": "/audio-emotion-detection/static/js/main.5f4d9bd3.js",
-    "static/js/787.dae473da.chunk.js": "/audio-emotion-detection/static/js/787.dae473da.chunk.js",
+    "main.js": "/audio-emotion-detection/static/js/main.9728f780.js",
     "index.html": "/audio-emotion-detection/index.html",
     "main.1cdb753e.css.map": "/audio-emotion-detection/static/css/main.1cdb753e.css.map",
-    "main.5f4d9bd3.js.map": "/audio-emotion-detection/static/js/main.5f4d9bd3.js.map",
-    "787.dae473da.chunk.js.map": "/audio-emotion-detection/static/js/787.dae473da.chunk.js.map"
+    "main.9728f780.js.map": "/audio-emotion-detection/static/js/main.9728f780.js.map"
   },
   "entrypoints": [
     "static/css/main.1cdb753e.css",
-    "static/js/main.5f4d9bd3.js"
+    "static/js/main.9728f780.js"
   ]
 }
