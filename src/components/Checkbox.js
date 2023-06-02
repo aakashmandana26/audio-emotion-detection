@@ -3,13 +3,11 @@ import { Context } from "../utils/context";
 
 
 const Checkbox = ({ id, name, value }) => {
-//   const [isChecked, setIsChecked] = useState(false);
-//   const [selectedValue, setSelectedValue] = useState("");
-const { isChecked, setIsChecked, selectedValue, setSelectedValue } = useContext(Context);
+
+const { selectedValue, setSelectedValue } = useContext(Context);
 
 
   const handleCheckboxChange = (event) => {
-    setIsChecked(event.target.checked);
     setSelectedValue(event.target.value)
     console.log(selectedValue)
   };
@@ -22,7 +20,6 @@ const { isChecked, setIsChecked, selectedValue, setSelectedValue } = useContext(
           id={id}
           name={name}
           value={value}
-          checked={isChecked}
           onChange={handleCheckboxChange}
         />{' '}
         {value}

@@ -4,7 +4,6 @@ import { Context } from "../utils/context";
 
 
 const Audioplayer = () => {
-  // const [audio, setAudio] = useState("");
   const { audio, setAudio} = useContext(Context);
 
 
